@@ -1,0 +1,445 @@
+:root{
+
+    --primary-color:#2563eb;
+    --hover-color:#1d4ed8;
+    --dark-color:#111827;
+    --light-color:#f3f4f6;
+    --text-color:#333;
+    --white:#ffffff;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+}
+
+
+/* Home Section */
+
+#home {
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+
+#home h1 {
+    font-size:48px;
+    margin-bottom:10px;
+}
+
+
+#home h3{
+    font-size:24px;
+    margin-bottom:15px;
+}
+
+
+#home p{
+    max-width:600px;
+    margin-bottom:25px;
+}
+
+
+#home a {
+    display:inline-block;
+    padding:12px 25px;
+    margin:10px;
+    text-decoration:none;
+    border-radius:8px;
+    background-color:var(--primary-color);
+    color:var(--white);
+}
+
+
+#home a:hover {
+    background-color:var(--hover-color);
+}
+
+
+#home img {
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    margin-top:30px;
+}
+
+
+
+/* About Section */
+
+#about{
+    padding:80px 10%;
+    text-align:center;
+}
+
+
+#about h2{
+    font-size:36px;
+    margin-bottom:20px;
+}
+
+
+#about p{
+    max-width:800px;
+    margin:auto;
+    font-size:18px;
+    line-height:1.8;
+}
+
+
+
+/* Skills Section */
+
+#skills{
+    padding:80px 10%;
+    text-align:center;
+}
+
+
+#skills h2{
+    font-size:36px;
+    margin-bottom:40px;
+}
+
+
+.skill-container {
+    display:flex;
+    justify-content:center;
+    gap:30px;
+}
+
+
+.skill-card {
+    width:250px;
+    padding:30px;
+    border-radius:10px;
+    background-color:var(--light-color);
+    transition:0.3s;
+}
+
+
+.skill-card:hover {
+    transform:translateY(-10px);
+}
+
+
+
+/* Projects Section */
+
+#projects{
+    padding:80px 10%;
+    text-align:center;
+}
+
+
+#projects h2{
+    font-size:36px;
+    margin-bottom:40px;
+}
+
+
+.project-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+}
+
+
+.project-card{
+    width:300px;
+    padding:30px;
+    background-color:var(--light-color);
+    border-radius:10px;
+    text-align:left;
+    transition:0.3s;
+}
+
+
+.project-card:hover{
+    transform:translateY(-10px);
+}
+
+
+.project-card a{
+    display:inline-block;
+    margin-top:15px;
+    padding:10px 20px;
+    background-color:var(--primary-color);
+    color:var(--white);
+    text-decoration:none;
+    border-radius:6px;
+}
+
+/* Project Technology Tags */
+
+.technology-list{
+
+    list-style:none;
+    margin:15px 0;
+
+}
+
+
+.technology-list li{
+
+    display:inline-block;
+    background-color:var(--dark-color);
+    color:var(--white);
+
+    padding:5px 12px;
+
+    margin:5px 3px;
+
+    border-radius:20px;
+
+    font-size:14px;
+
+}
+
+/* Disabled Project Button */
+
+.disabled-button{
+
+    background-color:#9ca3af !important;
+
+    cursor:not-allowed;
+
+    opacity:0.8;
+
+}
+
+
+.disabled-button:hover{
+
+    background-color:#9ca3af !important;
+
+}
+
+/* Education Section */
+
+#education{
+    padding:80px 10%;
+    text-align:center;
+}
+
+
+#education h2{
+    font-size:36px;
+    margin-bottom:40px;
+}
+
+
+.education-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+
+.education-card{
+    width:300px;
+    padding:30px;
+    background-color:var(--light-color);
+    border-radius:10px;
+    text-align:left;
+    transition:0.3s;
+}
+
+
+.education-card:hover{
+    transform:translateY(-10px);
+}
+
+
+.education-card h3{
+    margin-bottom:10px;
+}
+
+
+.education-card h4{
+    margin-bottom:15px;
+    color:var(--primary-color);
+}
+
+
+
+/* Contact Section */
+
+#contact{
+    padding:80px 10%;
+    text-align:center;
+}
+
+
+#contact h2{
+    font-size:36px;
+    margin-bottom:20px;
+}
+
+
+#contact p{
+    font-size:18px;
+    margin-bottom:20px;
+}
+
+
+.contact-info{
+    margin-top:30px;
+}
+
+
+.contact-button{
+    display:inline-block;
+    margin-top:25px;
+    padding:12px 30px;
+    background-color:var(--primary-color);
+    color:var(--white);
+    text-decoration:none;
+    border-radius:8px;
+}
+
+
+.contact-button:hover{
+    background-color:var(--hover-color);
+}
+
+
+.contact-info a{
+    color:inherit;
+    text-decoration:none;
+}
+
+
+.contact-info a:hover{
+    color:var(--primary-color);
+    text-decoration:underline;
+}
+
+
+
+/* Footer */
+
+footer{
+    padding:20px;
+    text-align:center;
+    background-color:var(--dark-color);
+    color:var(--white);
+}
+
+
+footer p{
+    font-size:14px;
+}
+
+
+
+/* Navigation */
+
+header {
+    background-color:var(--dark-color);
+    padding:20px 10%;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+
+nav h2{
+    color:var(--white);
+}
+
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:25px;
+}
+
+
+nav a{
+    color:var(--white);
+    text-decoration:none;
+}
+
+
+nav a:hover{
+    color:#60a5fa;
+}
+
+
+
+/* Smooth Scrolling */
+
+html{
+    scroll-behavior:smooth;
+}
+
+
+section{
+    scroll-margin-top:100px;
+}
+
+
+
+/* Mobile Responsive */
+
+@media(max-width:768px){
+
+    section{
+        scroll-margin-top:260px;
+    }
+
+
+    nav{
+        flex-direction:column;
+        align-items:center;
+    }
+
+
+    nav ul{
+        flex-direction:column;
+        padding:0;
+        gap:15px;
+        width:100%;
+        text-align:center;
+    }
+
+
+    nav h2{
+        margin-bottom:20px;
+    }
+
+
+    .skill-container,
+    .project-container,
+    .education-container{
+
+        flex-direction:column;
+        align-items:center;
+
+    }
+
+   
+}
