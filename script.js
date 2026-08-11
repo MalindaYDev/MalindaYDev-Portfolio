@@ -1,11 +1,11 @@
-// ================= Footer year =================
+//  Footer year 
 const yearEl = document.getElementById('year');
 if (yearEl) {
     yearEl.textContent = new Date().getFullYear();
 }
 
 
-// ================= Mobile nav toggle =================
+//  Mobile nav toggle 
 const navToggle = document.getElementById('navToggle');
 const navLinks = document.getElementById('navLinks');
 
@@ -26,7 +26,7 @@ if (navToggle && navLinks) {
 }
 
 
-// ================= Scroll reveal =================
+//  Scroll reveal 
 const animatedSections = document.querySelectorAll('[data-animate]');
 
 if (animatedSections.length && 'IntersectionObserver' in window) {
@@ -48,7 +48,7 @@ if (animatedSections.length && 'IntersectionObserver' in window) {
 }
 
 
-// ================= Active nav link on scroll =================
+//  Active nav link on scroll 
 const sections = document.querySelectorAll('main section[id]');
 const navAnchors = document.querySelectorAll('#navLinks a');
 
