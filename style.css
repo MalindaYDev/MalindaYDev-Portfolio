@@ -133,7 +133,7 @@ section#home .eyebrow::before{
 }
 
 
-/* ================= Navigation ================= */
+/*  Navigation  */
 
 header {
     background:rgba(12,18,34,0.85);
@@ -238,7 +238,7 @@ nav a.active::after{
 .nav-toggle.is-open span:nth-child(3){ transform:translateY(-7px) rotate(-45deg); }
 
 
-/* ================= Reveal on scroll ================= */
+/*  Reveal on scroll  */
 
 [data-animate]{
     opacity:0;
@@ -253,7 +253,7 @@ nav a.active::after{
 }
 
 
-/* ================= Home Section ================= */
+/*  Home Section  */
 
 #home {
     min-height:100vh;
@@ -467,7 +467,7 @@ nav a.active::after{
 
 
 
-/* ================= About Section ================= */
+/*  About Section  */
 
 #about{
     padding:110px 8%;
@@ -526,7 +526,7 @@ nav a.active::after{
 
 
 
-/* ================= Skills Section ================= */
+/*  Skills Section  */
 
 #skills{
     padding:110px 8%;
@@ -596,7 +596,7 @@ nav a.active::after{
 
 
 
-/* ================= Projects Section ================= */
+/*  Projects Section  */
 
 #projects{
     padding:110px 8%;
@@ -739,7 +739,7 @@ nav a.active::after{
 
 
 
-/* ================= Education Section ================= */
+/*  Education Section  */
 
 #education{
     padding:110px 8%;
@@ -849,7 +849,7 @@ nav a.active::after{
 
 
 
-/* ================= Contact Section ================= */
+/*  Contact Section  */
 
 #contact{
     padding:110px 8% 90px;
@@ -947,7 +947,7 @@ nav a.active::after{
 
 
 
-/* ================= Footer ================= */
+/*  Footer  */
 
 footer{
     padding:26px 8%;
@@ -965,7 +965,7 @@ footer p{
 
 
 
-/* ================= Mobile Responsive ================= */
+/*  Mobile Responsive  */
 
 @media(max-width:900px){
 
